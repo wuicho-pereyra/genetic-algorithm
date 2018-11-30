@@ -66,17 +66,14 @@ Finalmente se reporta el desperdicio total que es la suma de 29, 30 y 155, 214.
 
 Para ejecutar el algoritmo basta con especificar los siguientes parámetros:
 
-popSize=5000 
+in_loop = 100 (Tamaño de la población inicial)
 
-eliteSize=45
-
-generations=5000
+out_loop = 100 (Número de iteraciones
 
 Las direcciones de los archivos de requerimientos.csv y presentaciones.csv
 
 Por último se invoca la función:
 
-geneticAlgorithm(requeriments, materials, popSize=5000, eliteSize=45, generations=5000)
-
+GRASP(requeriments, materials ,in_loop = 100, out_loop = 100)
 
 
