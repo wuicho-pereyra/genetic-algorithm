@@ -63,17 +63,14 @@ En la tercera línea se observa que se emplearán 5 presentaciones de material d
 2, del cual se cortarán en tramos de 189 unidades (5 tramos) para un desperdicio de 155.
 Finalmente se reporta el desperdicio total que es la suma de 29, 30 y 155, 214.
 
-
 Para ejecutar el algoritmo basta con especificar los siguientes parámetros:
 
-in_loop = 100 (Tamaño de la población inicial)
+popSize=5000 
 
-out_loop = 100 (Número de iteraciones
+generations=5000
 
 Las direcciones de los archivos de requerimientos.csv y presentaciones.csv
 
 Por último se invoca la función:
 
-GRASP(requeriments, materials ,in_loop = 100, out_loop = 100)
-
-
+geneticAlgorithm(requeriments, materials, popSize=5000, eliteSize=45, generations=5000)
